@@ -6,7 +6,7 @@ Input: s = "leetcode"
 Output: "leotcede"
  */
 
-public class _345_ReverseVowelsOfString {
+public class _0345_ReverseVowelsOfString {
     public static void main(String[] args) {
     String s ="leetcode";
         System.out.println("The sentence is : "+s);

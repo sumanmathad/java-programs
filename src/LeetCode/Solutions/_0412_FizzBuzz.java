@@ -9,10 +9,9 @@ answer[i] == i (as a string) if none of the above conditions are true.
 
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
-public class _412_FizzBuzz {
+public class _0412_FizzBuzz {
     public static void main(String[] args) {
         int n = 15;
         System.out.println("Input is : "+n);

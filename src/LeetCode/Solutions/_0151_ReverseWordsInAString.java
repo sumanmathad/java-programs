@@ -7,7 +7,7 @@ Do not include any extra spaces.
 Input: s = "a good   example   "
 Output: "example good a"
  */
-public class _151_ReverseWordsInAString {
+public class _0151_ReverseWordsInAString {
     public static void main(String[] args) {
 
         String s = "a good   example   ";
