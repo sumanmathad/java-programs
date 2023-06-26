@@ -1,5 +1,6 @@
 package LeetCode.Solutions;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -14,7 +15,7 @@ public class _0001_TwoSum {
         for (int i = 0; i < nums.length; i++) {
         int complement = target - nums[i];
         if (map.containsKey(complement) && map.get(complement) != i) {
-            System.out.println( new int[] { i, map.get(complement) });
+            System.out.println(Arrays.toString(new int[]{i, map.get(complement)}));
         }
     }
     // In case there is no solution, we'll just return null
