@@ -1,6 +1,6 @@
 package LeetCode.Solutions;
 /*
-Given an integer n, return a string array answer (1-indexed) where:
+Given an integer n, return a string array of n size answer (1-indexed) where:
 answer[i] == "FizzBuzz" if i is divisible by 3 and 5.
 answer[i] == "Fizz" if i is divisible by 3.
 answer[i] == "Buzz" if i is divisible by 5.
@@ -12,11 +12,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class _0412_FizzBuzz {
-    public static void main(String[] args) {
-        int n = 15;
-        System.out.println("Input is : "+n);
 
-        List<String> ans = new ArrayList<String>();
+    public static List<String> fizzBuzzString(int n){
+        List<String> ans = new ArrayList<>();
 
         for(int i=1;i<=n;i++) {
             String temp="";
@@ -31,9 +29,14 @@ public class _0412_FizzBuzz {
             }
             ans.add(temp);
         }
+        return ans;
+    }
 
-        System.out.println(ans);
 
+
+    public static void main(String[] args) {
+        System.out.println(fizzBuzzString(15));
+        System.out.println(fizzBuzzString(4));
 
     }
 }
