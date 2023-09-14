@@ -36,7 +36,6 @@ public class _0412_FizzBuzz {
 
     public static void main(String[] args) {
         System.out.println(fizzBuzzString(15));
-        System.out.println(fizzBuzzString(4));
 
     }
 }
