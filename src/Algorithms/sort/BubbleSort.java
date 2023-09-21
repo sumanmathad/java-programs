@@ -27,9 +27,8 @@ public class BubbleSort {
 
 
     public static void main(String[] args) {
+
         System.out.println(bubbleSort(new int[]{2,5,34,6,0,1,-6,9}));
     }
-
-
 
 }
