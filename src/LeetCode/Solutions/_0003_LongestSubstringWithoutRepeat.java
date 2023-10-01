@@ -5,7 +5,7 @@ Given a string s, find the length of the longest substring without repeating cha
  */
 public class _0003_LongestSubstringWithoutRepeat {
     public static void main(String[] args) {
-        System.out.println(lengthOfLongestSubstring(" "));
+        System.out.println(lengthOfLongestSubstring("sadasdsd"));
     }
     public static int lengthOfLongestSubstring(String s) {
         int maxsize=0;
