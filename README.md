@@ -8,8 +8,8 @@ Note :
 2. This is always a work in progress.
   
 
-| Problem Number (LeetCode Reference)       | Program Name (Solution reference)           | 
-| :-------------: |:-------------:| 
-| [0001](https://leetcode.com/problems/two-sum/description/)   | [Two Sum](https://github.com/sumanmathad/java-programs/blob/main/src/LeetCode/Solutions/_0001_TwoSum.java)| 
-|       |     | 
-|  |    | 
+| Problem Number (LeetCode Reference)       | Program Name (Solution reference)           | Strategies  |
+| :-------------: |:-------------:| :-------------:| 
+| [0001](https://leetcode.com/problems/two-sum/description/)   | [Two Sum](https://github.com/sumanmathad/java-programs/blob/main/src/LeetCode/Solutions/_0001_TwoSum.java)| HashMap |
+|       |     |     |
+|       |     |     |
