@@ -5,11 +5,72 @@ import org.junit.jupiter.api.Test;
 import java.util.Arrays;
 
 public class _0034_FindFirst_LastPosition {
-
-    int[]nums={4,4};
+    static int[]nums={4,4};
     int target=4;
-    @Test
-    public void searchRange() {
+    public static void main(String[] args) {
+        System.out.println(Arrays.toString(searchRange(nums,4)));
+    }
+
+
+    public static int[] searchRange(int[] nums, int target) {
+        int first = firstBound(nums,target,true);
+        if (first==-1){
+            return new int[]{-1,-1};
+        }else return new int[] {first ,  firstBound(nums,target,false)};
+
+    }
+
+
+    public static int firstBound(int[] nums, int target,boolean isFirst ){
+        int left=0, right=nums.length-1;
+        while (left<=right){
+            int mid= left+(right-left)/2;
+            if(nums[mid]==target){
+                if(isFirst){
+                   int first=mid;
+                    if(mid==left || nums[mid-1]!=target){
+                       return mid;
+                    }
+                    else right =mid-1;
+                }
+                else {
+                    int last=mid;
+                    if(mid==right || nums[mid+1]!=target){
+                        return mid;
+                    }
+                    else left=mid+1;
+                }
+
+            }
+            else if (nums[mid]<target){
+                left=mid+1;
+            }
+            else right=mid-1;
+        }
+
+
+        return -1;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //copied code
+  /*  public void searchRange() {
 
         int firstOccurrence = this.findBound(nums, target, true);
 
@@ -61,5 +122,5 @@ public class _0034_FindFirst_LastPosition {
         }
 
         return -1;
-    }
+    }*/
 }
