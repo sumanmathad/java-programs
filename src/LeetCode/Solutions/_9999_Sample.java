@@ -7,8 +7,11 @@ public class _9999_Sample {
         System.out.println(n);
     }
 
-    public static String f(){
+    public static String f(int n){
 
         return"";
     }
 }
+/******************    ******************************/
+
+/************************** End ********************************/
