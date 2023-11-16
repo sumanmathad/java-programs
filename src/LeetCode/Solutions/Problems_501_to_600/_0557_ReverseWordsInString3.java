@@ -1,6 +1,4 @@
-package LeetCode.Solutions.Problems_500_to_600;
-
-import java.util.Arrays;
+package LeetCode.Solutions.Problems_501_to_600;
 
 /*
 Given a string s, reverse the order of characters in each word within a sentence while still preserving whitespace and initial word order.
