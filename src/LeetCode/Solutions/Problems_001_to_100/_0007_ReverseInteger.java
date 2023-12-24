@@ -1,4 +1,4 @@
-package LeetCode.Solutions;
+package LeetCode.Solutions.Problems_001_to_100;
 
 import java.time.LocalDate;
 
