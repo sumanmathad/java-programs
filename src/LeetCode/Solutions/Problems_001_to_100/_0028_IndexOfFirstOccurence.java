@@ -1,4 +1,4 @@
-package LeetCode.Solutions;
+package LeetCode.Solutions.Problems_001_to_100;
 /*
 Given two strings needle and haystack,
 return the index of the first occurrence of needle in haystack,
