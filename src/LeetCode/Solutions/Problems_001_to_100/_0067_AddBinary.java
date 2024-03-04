@@ -1,4 +1,4 @@
-package LeetCode.Solutions;
+package LeetCode.Solutions.Problems_001_to_100;
 /*
 Given two binary strings a and b, return their sum as a binary string.
  */
