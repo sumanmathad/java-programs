@@ -1,4 +1,4 @@
-package LeetCode.Solutions;
+package LeetCode.Solutions.Problems_001_to_100;
 
 /*
 Given an integer array nums, find the subarray with the largest sum, and return its sum.
