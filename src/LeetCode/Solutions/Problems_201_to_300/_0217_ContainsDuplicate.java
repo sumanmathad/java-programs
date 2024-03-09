@@ -1,4 +1,4 @@
-package LeetCode.Solutions;
+package LeetCode.Solutions.Problems_201_to_300;
 
 import java.util.HashSet;
 import java.util.Set;
