@@ -1,4 +1,4 @@
-package LeetCode.Solutions;
+package LeetCode.Solutions.Problems_101_to_200;
 
 import java.util.ArrayList;
 import java.util.List;
